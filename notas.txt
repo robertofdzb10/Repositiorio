@@ -1,0 +1,32 @@
+Crear: gcc fichero.c -o fichero
+Ejecutar: ./fichero
+
+Número entero: Sin decimales --> short (2 bytes) / int (4 bytes) /long (8 bytes) / long long (8 bytes o más)
+Número real: Con decimales --> float (4 bytes) /double (8 bytes)
+
+-Ejecutar-
+----------
+Crear con enlazados: gcc main.c operaciones.c -o main
+
+-Punteros-
+----------
+int *a = malloc(sizeof(int)); -> Declaración de un puntero a un entero
+*a = 5; -> Asignamos al entero que apunta a el valor 5
+&a -> Accedemos a la dirección de memoria del entero que apunta el puntero
+a -> Accedemos a la dirección del puntero
+int **a malloc(3 * sizeof(int)); -> Un array de ints
+
+
+-printf-
+----------
+%p -> dirección de memoria de un puntero
+
+-Arrays-
+--------
+strcat -> Concatenar arrays
+strcpy -> Para guardar valores en arrays dinámicos de carácteres
+/0 cuanta como un caracter (Hola ocupa 5, y no 4)
+
+-scanf-
+-------
+scanf espera una direccion de memoria, con char funciona ya que son punteros
