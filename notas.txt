@@ -1,4 +1,5 @@
 Crear: gcc fichero.c -o fichero
+Depurar: Crear: gcc -g -o fichero.c fichero
 Ejecutar: ./fichero
 
 Número entero: Sin decimales --> short (2 bytes) / int (4 bytes) /long (8 bytes) / long long (8 bytes o más)
@@ -30,3 +31,17 @@ strcpy -> Para guardar valores en arrays dinámicos de carácteres
 -scanf-
 -------
 scanf espera una direccion de memoria, con char funciona ya que son punteros
+
+EJ17, línea 53
+
+- Archivos de texto -
+---------------------
+fopen("datos.txt", "w"); --> Abrir archivo
+fprintf(archivo, "%d\n", i); --> Escribir en archivo
+fclose(archivo); --> Cerrar archivo
+while(fscanf(archivo, "%d\n", &numTemp) == 1){ 
+
+fread y fwrite operan en binario
+fprintf y fscanf operan a nivel de texto
+
+gcc -g -o main main.c -O2 -lsqlite3
