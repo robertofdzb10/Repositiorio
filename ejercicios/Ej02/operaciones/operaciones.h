@@ -1,5 +1,5 @@
-#ifndef OPERACIONES_H // Si OPERACIONES_H no esta definido
-#define OPERACIONES_H // Se define aquí
+#ifndef OPERACIONES_H_ // Si OPERACIONES_H no esta definido
+#define OPERACIONES_H_ // Se define aquí
 
 double sumar(double a, double b);
 double restar(double a, double b);

@@ -1,5 +1,5 @@
-#ifndef NUMCOMPLEJO_H
-#define NUMCOMPLEJO_H
+#ifndef NUMCOMPLEJO_H_
+#define NUMCOMPLEJO_H_
 
 // Declaración de estructuras
 typedef struct{

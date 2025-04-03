@@ -1,5 +1,5 @@
-#ifndef FRACCION_H
-#define FRACCION_H
+#ifndef FRACCION_H_
+#define FRACCION_H_
 
 // Declaración de estructuras
 typedef struct{

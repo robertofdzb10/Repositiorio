@@ -1,5 +1,8 @@
 Crear: gcc fichero.c -o fichero
 Depurar: Crear: gcc -g -o fichero.c fichero
+gcc main.c .\matriz\matriz.c -o main
+gcc -g main.c .\persona\persona.c -o main
+gcc -g main.c .\censo\censo.c .\persona\persona.c -I. -o main
 Ejecutar: ./fichero
 
 Número entero: Sin decimales --> short (2 bytes) / int (4 bytes) /long (8 bytes) / long long (8 bytes o más)

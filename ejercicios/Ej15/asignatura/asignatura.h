@@ -1,5 +1,5 @@
-#ifndef ASIGNATURA_H
-#define ASIGNATURA_H
+#ifndef ASIGNATURA_H_
+#define ASIGNATURA_H_
 
 // Definición de estrcuturas
 typedef struct{

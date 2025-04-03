@@ -1,5 +1,5 @@
-#ifndef FUNMAT_H
-#define FUNMAT_H
+#ifndef FUNMAT_H_
+#define FUNMAT_H_
 
 // Declaración de estructuras
 typedef struct{

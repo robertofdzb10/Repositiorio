@@ -1,5 +1,5 @@
-#ifndef CADENA_H
-#define CADENA_H
+#ifndef CADENA_H_
+#define CADENA_H_
 
 // Declaración de funciones
 void imprimirArrayCaracteres(char *a);

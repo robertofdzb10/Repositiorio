@@ -1,5 +1,5 @@
-#ifndef MATRIZ_H
-#define MATRIZ_H
+#ifndef MATRIZ_H_
+#define MATRIZ_H_
 
 // Declaración de variables globales
 #define X 5

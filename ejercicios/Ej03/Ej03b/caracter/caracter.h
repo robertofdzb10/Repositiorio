@@ -1,5 +1,5 @@
-#ifndef CARACTER_H
-#define CARACTER_H
+#ifndef CARACTER_H_
+#define CARACTER_H_
 
 bool isUpperCase(char c);
 bool isLowerCase(char c);
